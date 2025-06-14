@@ -69,7 +69,7 @@ window.onload = function () {
       yv = 0;
     }
   });
-  setInterval(game, 1000 / 10);
+  setInterval(game, 1000 / 2);
 };
 
 const resetButton = document.querySelector(`.reset`);
